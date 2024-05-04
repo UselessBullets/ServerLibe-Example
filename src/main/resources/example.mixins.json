@@ -1,7 +1,7 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "unknown.templateplugin.mixin",
+    "package": "org.useless.serverlibe.example.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
     ],

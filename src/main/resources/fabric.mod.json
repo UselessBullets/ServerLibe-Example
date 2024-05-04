@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "templateplugin",
+  "id": "example",
   "version": "${version}",
 
-  "name": "Template Plugin",
-  "description": "Template for Plugins.",
+  "name": "ServerLibe Example",
+  "description": "Example ServerLibe plugin.",
   "authors": [
-    "unknown"
+    "Useless"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://github.com/UselessBullets/ServerLibe-Example",
+    "sources": "https://github.com/UselessBullets/ServerLibe-Example"
   },
   "environment": "server",
   "entrypoints": {
     "serverlibe": [
-			"unknown.templateplugin.TemplatePlugin"
+			"org.useless.serverlibe.example.ExamplePlugin"
     ]
 	},
   "mixins": [
-      "templateplugin.mixins.json"
+      "example.mixins.json"
   ],
 
   "depends": {
