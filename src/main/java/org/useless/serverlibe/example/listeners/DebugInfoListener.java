@@ -27,7 +27,7 @@ public class DebugInfoListener implements Listener {
 	}
 	@EventListener(priority = Priority.HIGH)
 	public void onGuiClick(InventoryClickEvent clickEvent){
-		clickEvent.player.addChatMessage(String.format(String.format("[%s] action: %s, args: %s, actionID: %s, Itemstack: %s", ExamplePlugin.MOD_ID, clickEvent.action, Arrays.toString(clickEvent.args), clickEvent.actionId, clickEvent.itemStack));
+		clickEvent.player.addChatMessage(String.format(String.format("[%s] action: %s, args: %s, actionID: %s, Itemstack: %s", ExamplePlugin.MOD_ID, clickEvent.action, Arrays.toString(clickEvent.args), clickEvent.actionId, clickEvent.itemStack)));
 	}
 	@EventListener(priority = Priority.HIGH)
 	public void onAttack(PlayerEntityInteractEvent interactEvent){
