@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "templateplugin",
+  "version": "${version}",
+
+  "name": "Template Plugin",
+  "description": "Template for Plugins.",
+  "authors": [
+    "unknown"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "environment": "server",
+  "entrypoints": {
+    "serverlibe": [
+			"unknown.templateplugin.TemplatePlugin"
+    ]
+	},
+  "mixins": [
+      "templateplugin.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "~7.1",
+		"serverlibe": "~beta.1",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
